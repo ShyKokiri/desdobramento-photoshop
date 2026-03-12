@@ -1,0 +1,26 @@
+{
+  "id": "com.daive.desdobramento",
+  "name": "Desdobramento Daive",
+  "version": "1.0.0",
+  "description": "Gera múltiplos formatos a partir de um artboard selecionado.",
+  "author": "Daive",
+  "icons": [],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "desdobramento",
+      "label": { "default": "Desdobramento" },
+      "minimumSize": { "width": 300, "height": 400 },
+      "maximumSize": { "width": 600, "height": 900 },
+      "preferredDockedSize": { "width": 380, "height": 560 }
+    }
+  ],
+  "requiredPermissions": {
+    "allowCodeGenerationFromStrings": true,
+    "launchProcess": { "schemes": [] }
+  },
+  "host": [
+    { "app": "PS", "minVersion": "23.0" }
+  ],
+  "manifestVersion": 5
+}
